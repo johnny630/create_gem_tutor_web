@@ -1,4 +1,2 @@
-run proc {
-[200, {'Content-Type' => 'text/html'},
- ["Just do !!"]]
-}
+require_relative 'config/application'
+run CreateGemTutorWeb::Application.new
