@@ -22,3 +22,5 @@ Create task_controller.rb
 key words:
 `$LOAD_PATH <<`
 `require`
+
+## Step3: Create index controller -> create_gem_tutor Step8
