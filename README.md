@@ -24,3 +24,6 @@ key words:
 `require`
 
 ## Step3: Create index controller -> create_gem_tutor Step8
+
+## Step4: Create Order controller with autoloading -> create_tem_tutor Step 9
+

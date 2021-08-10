@@ -2,8 +2,8 @@ require 'create_gem_tutor'
 
 # add app/controllers into $LOAD_PATH
 $LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
-require 'tasks_controller'
-require 'home_controller'
+# require 'tasks_controller'
+# require 'home_controller'
 
 module CreateGemTutorWeb
   class Application < CreateGemTutor::Application
