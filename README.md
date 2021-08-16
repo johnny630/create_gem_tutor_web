@@ -27,3 +27,6 @@ key words:
 
 ## Step4: Create Order controller with autoloading -> create_tem_tutor Step 9
 
+## Step5: add gem file and rerun to improve develop speed
+`bundle exec rerun -- rackup -p 3001` you can reload when revise controller.
+
