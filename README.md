@@ -30,3 +30,5 @@ key words:
 ## Step5: add gem file and rerun to improve develop speed
 `bundle exec rerun -- rackup -p 3001` you can reload when revise controller.
 
+## Step6: Create task views -> create_tem_tutor Step 11
+
