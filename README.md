@@ -33,3 +33,5 @@ key words:
 ## Step6: Create task views -> create_tem_tutor Step 11
 
 ## Step7: User default render -> create_tem_tutor Step 12
+
+## Step8: Add link_to helper -> create_tem_tutor Step 13
