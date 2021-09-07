@@ -37,3 +37,5 @@ key words:
 ## Step8: Add link_to helper -> create_tem_tutor Step 13
 
 ## Step9: Add application layout -> create_tem_tutor Step 14
+
+## Step10: Add tasks show -> create_tem_tutor Step 15
