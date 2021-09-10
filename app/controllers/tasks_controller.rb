@@ -1,6 +1,6 @@
 class TasksController < CreateGemTutor::Controller
   def index
-    @task_name = "This is a Task's index demo"
+    @tasks = FileModel.all
   end
 
   def show
@@ -8,5 +8,16 @@ class TasksController < CreateGemTutor::Controller
     task = FileModel.find(2)
 
     @task = task
+  end
+
+  def create
+    attrs = {
+      title: 'python',
+      content: 'python'
+    }
+  
+    FileModel.create(attrs)
+    @tasks = FileModel.all
+    render 'index'
   end
 end
