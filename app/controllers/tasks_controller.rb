@@ -5,8 +5,9 @@ class TasksController < CreateGemTutor::Controller
 
   def show
     # CreateGemTutor::Model::FileModel.find(2)
-    task = FileModel.find(2)
+    task = FileModel.find(params['id'])
 
+    @user_agent = request.user_agent
     @task = task
   end
 
