@@ -43,3 +43,8 @@ key words:
 ## Step11: Task Controller add create and review index action -> create_tem_tutor Step 16
 
 ## Step12: can use params in request -> create_tem_tutor Step 17
+
+## Step13: create a migration -> create_tem_tutor Step 18
+create a `mini_migration.rb` to basic migratation, run `bundle exec ruby mini_migration.rb`
+create a `sqlite_test.rb` and run `bundle exec ruby sqlite_test.rb` then can see 
+`{"id"=>"INTEGER", "title"=>"TEXT", "content"=>"TEXT"}`

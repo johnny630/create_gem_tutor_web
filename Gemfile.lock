@@ -5,6 +5,7 @@ PATH
       erubi (~> 1.10)
       multi_json (~> 1.15)
       rack (~> 2.2)
+      sqlite3
 
 GEM
   remote: https://rubygems.org/
@@ -21,6 +22,7 @@ GEM
       ffi (~> 1.0)
     rerun (0.13.1)
       listen (~> 3.0)
+    sqlite3 (1.4.2)
     webrick (1.7.0)
 
 PLATFORMS
