@@ -50,3 +50,5 @@ create a `sqlite_test.rb` and run `bundle exec ruby sqlite_test.rb` then can see
 `{"id"=>"INTEGER", "title"=>"TEXT", "content"=>"TEXT"}`
 
 ## Step14: sqlite_test.rb add some test -> create_tem_tutor Step 19
+
+## Step15: sqlite revise get data by .attribute -> create_tem_tutor Step 20

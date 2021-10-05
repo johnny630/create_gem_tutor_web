@@ -9,9 +9,11 @@ puts Task.schema
 puts Task.count
 
 Task.all.each { |task| puts task['title'] }
-puts Task.find(1)['content']
+# puts Task.find(1)['content']
 
 task = Task.find(1)
-task['title'] = 'rails tutor'
+task.title = 'rails tutor'
 task.save!
-puts Task.find(1)['title']
+
+task2 = Task.find(1)
+puts task2.title
