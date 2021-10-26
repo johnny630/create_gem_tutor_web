@@ -7,3 +7,9 @@ class Task < CreateGemTutor::DataRecord::Base
 end
 
 puts Task.schema
+
+task = Task.new(title: 'rails test')
+puts task.title
+
+task.title = 'python test'
+puts task.title

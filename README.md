@@ -54,3 +54,5 @@ create a `sqlite_test.rb` and run `bundle exec ruby sqlite_test.rb` then can see
 ## Step15: sqlite revise get data by .attribute -> create_tem_tutor Step 20
 
 ## Step16: add PostgreSQL -> create_tem_tutor Step 21
+
+## Step17: postgres test setting attribute value -> create_tem_tutor Step 22
