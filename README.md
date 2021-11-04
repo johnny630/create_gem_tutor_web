@@ -58,3 +58,5 @@ create a `sqlite_test.rb` and run `bundle exec ruby sqlite_test.rb` then can see
 ## Step17: postgres test setting attribute value -> create_tem_tutor Step 22
 
 ## Step18: postgres test `save` and `count` -> create_tem_tutor Step 23
+
+## Step19: postgres test `where` and `all` etc.. -> create_tem_tutor Step 24
