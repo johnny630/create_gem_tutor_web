@@ -1,9 +1,9 @@
 # require 'create_gem_tutor'
-require "data_record"
+require "active_record"
 
-CreateGemTutor::DataRecord::Base.establish_connection
+ActiveRecord::Base.establish_connection
 
-class Task < CreateGemTutor::DataRecord::Base
+class Task < ActiveRecord::Base
 end
 
 # puts Task.schema
