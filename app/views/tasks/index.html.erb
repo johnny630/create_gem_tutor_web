@@ -2,9 +2,9 @@
   <div class="row">
     <div class="col-sm-6 col-lg-3">
       <div class="card">
-        <h5 class="card-header"><%= task['title'] %></h5>
+        <h5 class="card-header"><%= task.title %></h5>
         <div class="card-body">
-          <p class="card-text"><%= task['content'] %></p>
+          <p class="card-text"><%= task.content %></p>
           <span>
             <a href="/tasks/1/edit">修改</a>
             <a data-confirm="確定刪除?" rel="nofollow" data-method="delete" href="/tasks/1">刪除</a>

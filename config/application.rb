@@ -1,9 +1,10 @@
 require 'create_gem_tutor'
 
-# add app/controllers into $LOAD_PATH
-$LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
-# require 'tasks_controller'
-# require 'home_controller'
+# 建立連線
+ActiveRecord::Base.establish_connection
+# autoload 預設路徑
+ActiveSupport::Dependencies.autoload_paths = Dir["./app/*"]
+puts ActiveSupport::Dependencies.autoload_paths
 
 module CreateGemTutorWeb
   class Application < CreateGemTutor::Application

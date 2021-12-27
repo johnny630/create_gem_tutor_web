@@ -62,3 +62,5 @@ create a `sqlite_test.rb` and run `bundle exec ruby sqlite_test.rb` then can see
 ## Step19: postgres test `where` and `all` etc.. -> create_tem_tutor Step 24
 
 ## Step20: test active record -> create_tem_tutor Step 25
+
+## Step21: tasks revise use support code and revise taks model usage -> Step 27: revise related code by support Dependencies
