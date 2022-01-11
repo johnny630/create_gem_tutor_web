@@ -1,4 +1,4 @@
-require 'create_gem_tutor'
+require 'create_gem_tutor/all'
 
 # 建立連線
 ActiveRecord::Base.establish_connection
